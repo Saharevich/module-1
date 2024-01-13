@@ -54,6 +54,7 @@ button {
     font-weight: 400;
     font-size: 18px;
     line-height: 24.59px;
+    letter-spacing: -0.4px;
     color: #121212;
     transition: color 0.3s ease-in-out;
 }
@@ -77,6 +78,7 @@ button {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
+    letter-spacing: -1.7px;
 }
 
 .first-section__descr {
@@ -87,6 +89,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     line-height: 27.32px;
+    letter-spacing: -1px;
     color: #fff;
 }
 
@@ -107,11 +110,12 @@ button {
 }
 
 .main-section__descr {
-    margin-bottom: 30px;
+    margin-bottom: 29px;
     max-width: 1100px;
     font-weight: 400;
     font-size: 45px;
     line-height: 61.47px;
+    letter-spacing: -0.9px;
     color: #121212;
 }
 
@@ -123,7 +127,7 @@ button {
     background-color: #AD1818;
     border: none;
     border-radius: 5px;
-    padding: 20px 40px;
+    padding: 19.5px 40px;
 }
 
 .projects-section {
@@ -143,10 +147,11 @@ button {
 }
 
 .projects-section__descr {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     font-weight: 400;
     font-size: 30px;
     line-height: 40.98px;
+    letter-spacing: -0.9px;
     color: inherit;
 }
 
@@ -154,14 +159,13 @@ button {
     font-weight: 400;
     font-size: 20px;
     line-height: 27.32px;
+    letter-spacing: -0.45px;
     color: #AD1818;
 }
 
 .projects-section__btn {
-    display: block;
-    padding: 0;
     width: 100%;
-    height: 153px;
+    height: 156px;
     text-align: center;
     font-weight: 400;
     font-size: 30px;
@@ -169,6 +173,7 @@ button {
     color: #AD1818;
     background-color: #F5F5F5;
     border: 1px solid #AD1818;
+    border-radius: 5px;
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -188,7 +193,7 @@ button {
 }
 
 .services-section__item:not(:last-child) {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
 }
 
 .services-section__img {
@@ -199,14 +204,15 @@ button {
     font-weight: 400;
     font-size: 30px;
     line-height: 40.98px;
+    letter-spacing: -0.8px;
     color: #fff;
 }
 
 .apartment-section {
-    margin-bottom: 150px;
+    margin-bottom: 186px;
     padding-bottom: 60px;
     flex-direction: column-reverse;
-    min-height: 717px;
+    min-height: 654px;
     width: 100%;
     background-image: url('../resources/apartments-img.jpg');
     background-repeat: no-repeat;
@@ -219,20 +225,18 @@ button {
     font-weight: 400;
     font-size: 30px;
     line-height: 40.98px;
+    letter-spacing: -0.8px;
     color: #fff;
 }
 
 .contacts-section {
-    margin-bottom: 150px;
-}
-
-.contacts-section svg {
-    margin-bottom: 12px;
+    margin-bottom: 161px;
 }
 
 .contacts-section__title {
     margin-bottom: 32px;
     position: relative;
+    letter-spacing: -0.8px;
 }
 
 .contacts-section__title::before {
@@ -255,6 +259,7 @@ button {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
+    letter-spacing: -0.9px;
     color: inherit;
     transition: color 0.3s ease-in-out;
 }
@@ -268,6 +273,7 @@ button {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
+    letter-spacing: -1.6px;
     color: inherit;
     transition: color 0.3s ease-in-out;
 }
@@ -284,17 +290,18 @@ button {
 }
 
 .footer-section__list {
-    margin-bottom: 83px;
+    margin-bottom: 87px;
     justify-content: center;
 }
 
 .footer-section__item:not(:last-child) {
-    margin-right: 53px;
+    margin-right: 51px;
 }
 
 .footer-section__link {
     font-size: 18px;
     line-height: 24.59px;
+    letter-spacing: 0.5px;
     color: #fff;
     transition: color 0.3s ease-in-out;
 }
@@ -307,5 +314,6 @@ button {
 .footer-section__name {
     font-size: 20px;
     line-height: 27.32px;
+    letter-spacing: -0.5px;
     color: #949393;
 }
