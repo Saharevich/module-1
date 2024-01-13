@@ -10,26 +10,40 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <main class="main-information">
       <header>
         <div class="container">
           <div class="header flex">
           <img src="./resources/metrika-logo.svg" alt="Логотип компании" class="logo">
-          <a href="#main-section" class="header-link main-link">
-            О НАС
-          </a>
-          <a href="#projects-section" class="header-link">
-            ПРОЕКТЫ
-          </a>
-          <a href="#services-section" class="header-link">
-            УСЛУГИ
-          </a>
-          <a href="#contacts-section" class="header-link">
-            КОНТАКТЫ
-          </a>
+          <nav class="header-nav">
+          <ul class="header-nav__list flex">
+            <li class="header-nav__item">
+              <a href="#main-section" class="header-link main-link">
+                О НАС
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#projects-section" class="header-link">
+                ПРОЕКТЫ
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#services-section" class="header-link">
+                УСЛУГИ
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#contacts-section" class="header-link">
+                КОНТАКТЫ
+              </a>
+            </li>
+          </ul>
+        </nav>  
         </div>
         </div>
       </header>
+
+      <main class="main-information">
+
       <section class="first-section">
         <div class="container">
           <h1 class="first-section__title">
@@ -42,40 +56,126 @@
           </div>
         </div>
       </section>
+
       <section id="main-section" class="main-section">
         <div class="container">
-          <h1 class="main-section__title">О НАС</h1>
+          <h2 class="main-section__title section-title">О НАС</h2>
           <p class="main-section__descr">
             Студия основана в&nbsp;2011&nbsp;году. Полностью отдаемся проектированию и&nbsp;реализации интерьеров. К&nbsp;нам обращаются за&nbsp;уютом, индивидуальными решениями и&nbsp;практичностью. Находим конструктивные решения для каждого интерьера, вплоть до&nbsp;каждой детали&nbsp;&mdash; нацелены на&nbsp;результат.
           </p>
           <button type="button" class="main-section__btn">Посмотреть услуги</button>
         </div>
       </section>
+
       <section id="projects-section" class="projects-section">
         <div class="container">
-
+          <h2 class="projects-section__title section-title">ПРОЕКТЫ</h2>
+          <ul class="projects-section__list">
+            <li class="projects-section__item">
+              <img src="./resources/projects-img1.jpg" alt="Пример квартиры" class="projects-section__img">
+              <h3 class="projects-section__descr">
+                ЖК&nbsp;ПРАВОБЕРЕЖНЫЙ&nbsp;&mdash; 112&nbsp;м&sup2;&nbsp;&mdash; 2023
+              </h3>
+              <a href="#" class="projects-section__link">Подробнее →</a>
+            </li>
+            <li class="projects-section__item">
+              <img src="./resources/projects-img2.jpg" alt="Пример квартиры" class="projects-section__img">
+              <h3 class="projects-section__descr">
+                ЖК&nbsp;НОРВЕЖСКИЙ ПАРК&nbsp;&mdash; 75&nbsp;М&sup2;&nbsp;&mdash; 2023
+              </h3>
+              <a href="#" class="projects-section__link">Подробнее →</a>
+            </li>
+            <li class="projects-section__item">
+              <img src="./resources/projects-img3.jpg" alt="Пример квартиры" class="projects-section__img">
+              <h3 class="projects-section__descr">
+                ЖК&nbsp;СОСНОВСКИЕ ОЗЕРА&nbsp;&mdash; 94&nbsp;М&sup2;&nbsp;&mdash; 2022
+              </h3>
+              <a href="#" class="projects-section__link">Подробнее →</a>
+            </li>
+          </ul>
+          <button class="projects-section__btn">Смотреть все проекты</button>
         </div>
       </section>
+
       <section id="services-section" class="services-section">
         <div class="container">
-
+          <h2 class="services-section__title section-title">УСЛУГИ</h2>
+          <ul class="services-section__list">
+            <li class="services-section__item">
+              <img src="./resources/services-img1.jpg" alt="Разновидности услуг" class="services-section__img">
+              <p class="services-section__descr">
+                Планировочное решение&nbsp;&mdash; от&nbsp;2500₽/м&sup2;
+              </p>
+            </li>
+            <li class="services-section__item">
+              <img src="./resources/services-img2.jpg" alt="Разновидности услуг" class="services-section__img">
+              <p class="services-section__descr">
+                Дизайн-проект&nbsp;&mdash; от&nbsp;3000₽/м&sup2;
+              </p>
+            </li>
+            <li class="services-section__item">
+              <img src="./resources/services-img3.jpg" alt="Разновидности услуг" class="services-section__img">
+              <p class="services-section__descr">
+                Авторский надзор&nbsp;&mdash; от&nbsp;30 000₽ в&nbsp;месяц
+              </p>
+            </li>
+            <li class="services-section__item">
+              <img src="./resources/services-img4.jpg" alt="Разновидности услуг" class="services-section__img">
+              <p class="services-section__descr">
+                Комплектация&nbsp;&mdash; 5%&nbsp;от&nbsp;стоимости спецификации
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
-      <section class="apartment-section">
+
+      <section class="apartment-section flex">
         <div class="container">
-
+          <p class="apartments-section__descr">
+            Проект Двухкомнтаной квартиры в&nbsp;ЖК&nbsp;Лесной Пейзаж
+          </p>
         </div>
       </section>
+
       <section id="contacts-section" class="contacts-section">
         <div class="container">
-
+          <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5 0H2.5C1.83696 0 1.20107 0.263392 0.732233 0.732233C0.263392 1.20107 0 1.83696 0 2.5V19.5C0 20.163 0.263392 20.7989 0.732233 21.2678C1.20107 21.7366 1.83696 22 2.5 22H10.5C11.163 22 11.7989 21.7366 12.2678 21.2678C12.7366 20.7989 13 20.163 13 19.5V2.5C13 1.83696 12.7366 1.20107 12.2678 0.732233C11.7989 0.263392 11.163 0 10.5 0ZM6.5 21C5.67 21 5 20.33 5 19.5C5 18.67 5.67 18 6.5 18C7.33 18 8 18.67 8 19.5C8 20.33 7.33 21 6.5 21ZM11 17H2V3H11V17Z" fill="black"/>
+          </svg>
+          <h2 class="contacts-section__title section-title">КОНТАКТЫ</h2>
+          <p class="phone">
+            <a href="tel:+79358954535" class="contacts-section__phone">
+              +7 935 895-45-35
+            </a>
+          </p>
+          <p>
+            <a href="mailto:hello@mail.com" class="contacts-section__mail">
+              hello@mail.com
+            </a>
+          </p>
         </div>
       </section>
+
       <footer class="footer-section">
         <div class="container">
-
+          <ul class="footer-section__list flex">
+            <li class="footer-section__item">
+              <a href="#main-section" class="footer-section__link">О НАС</a>
+            </li>
+            <li class="footer-section__item">
+              <a href="#projects-section" class="footer-section__link">ПРОЕКТЫ</a>
+            </li>
+            <li class="footer-section__item">
+              <a href="#services-section" class="footer-section__link">УСЛУГИ</a>
+            </li>
+            <li class="footer-section__item">
+              <a href="#contacts-section" class="footer-section__link">КОНТАКТЫ</a>
+            </li>
+          </ul>
+          <p class="footer-section__name">студия дизайна интерьера Метрика&nbsp;&mdash; 2023</p>
         </div>
       </footer>
+
     </main>
   </body>
 </html>

@@ -29,6 +29,13 @@ button {
     padding: 0px 124px;
 }
 
+.section-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #121212;
+}
+
 .header {
     padding-top: 33px;
     margin-bottom: 70px;
@@ -46,7 +53,7 @@ button {
     color: #121212;
 }
 
-.header-link:not(:last-child) {
+.header-nav__item:not(:last-child) {
     margin-right: 60px;
 }
 
@@ -81,12 +88,12 @@ button {
     background-repeat: no-repeat;  
 }
 
+.main-section {
+    margin-bottom: 150px;
+}
+
 .main-section__title {
     margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.59px;
-    color: #121212;
 }
 
 .main-section__descr {
@@ -107,4 +114,155 @@ button {
     border: none;
     border-radius: 5px;
     padding: 20px 40px;
+}
+
+.projects-section {
+    margin-bottom: 150px;
+}
+
+.projects-section__item {
+    margin-bottom: 90px;
+}
+
+.projects-section__title {
+    margin-bottom: 30px;
+}
+
+.projects-section__img {
+    margin-bottom: 15px;
+}
+
+.projects-section__descr {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: inherit;
+}
+
+.projects-section__link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #AD1818;
+}
+
+.projects-section__btn {
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 153px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #AD1818;
+    background-color: #F5F5F5;
+    border: 1px solid #AD1818;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.projects-section__btn:hover {
+    background-color: #AD1818;
+    color: #fff;
+}
+
+.services-section {
+    padding: 150px 0px;
+    background-color: #121212;
+}
+
+.services-section__title {
+    margin-bottom: 34px;
+    color: #fff;
+}
+
+.services-section__item:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.services-section__img {
+    margin-bottom: 15px;
+}
+
+.services-section__descr {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #fff;
+}
+
+.apartment-section {
+    margin-bottom: 150px;
+    padding-bottom: 60px;
+    flex-direction: column-reverse;
+    min-height: 717px;
+    width: 100%;
+    background: url(/resources/apartments-img.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.apartments-section__descr {
+    max-width: 450px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #fff;
+}
+
+.contacts-section {
+    margin-bottom: 150px;
+}
+
+.contacts-section svg {
+    margin-bottom: 12px;
+}
+
+.contacts-section__title {
+    margin-bottom: 32px;
+}
+
+.phone {
+    margin-bottom: 30px;
+}
+
+.contacts-section__phone {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: inherit;
+}
+
+.contacts-section__mail {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: inherit;
+}
+
+.footer-section {
+    padding: 60px 0px 30px 0px;
+    text-align: center;
+    background-color: #121212;
+}
+
+.footer-section__list {
+    margin-bottom: 83px;
+    justify-content: center;
+}
+
+.footer-section__item:not(:last-child) {
+    margin-right: 53px;
+}
+
+.footer-section__link {
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #fff;
+}
+
+.footer-section__name {
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #949393;
 }
