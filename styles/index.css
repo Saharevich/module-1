@@ -198,7 +198,7 @@ button {
     flex-direction: column-reverse;
     min-height: 717px;
     width: 100%;
-    background: url(/resources/apartments-img.jpg) no-repeat center center;
+    background: url(./resources/apartments-img.jpg) no-repeat center center;
     background-size: cover;
 }
 
