@@ -55,6 +55,12 @@ button {
     font-size: 18px;
     line-height: 24.59px;
     color: #121212;
+    transition: color 0.3s ease-in-out;
+}
+
+.header-link:hover {
+    color: #949393;
+    border-bottom: 1px solid #949393;
 }
 
 .header-nav__item:not(:last-child) {
@@ -237,6 +243,12 @@ button {
     font-size: 60px;
     line-height: 60px;
     color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+.contacts-section__phone:hover {
+    color: #949393;
+    border-bottom: 1px solid #949393;
 }
 
 .contacts-section__mail {
@@ -244,6 +256,12 @@ button {
     font-size: 60px;
     line-height: 60px;
     color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+.contacts-section__mail:hover {
+    color: #949393;
+    border-bottom: 1px solid #949393;
 }
 
 .footer-section {
@@ -265,6 +283,12 @@ button {
     font-size: 18px;
     line-height: 24.59px;
     color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-section__link:hover {
+    color: #949393;
+    border-bottom: 1px solid #949393;
 }
 
 .footer-section__name {
