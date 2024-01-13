@@ -208,7 +208,7 @@ button {
     flex-direction: column-reverse;
     min-height: 717px;
     width: 100%;
-    background-image: url('/resources/apartments-img.jpg');
+    background-image: url('../resources/apartments-img.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -242,7 +242,7 @@ button {
     position: absolute;
     bottom: 35px;
     left: -5px;
-    background-image: url('/resources/phone-icon.svg');
+    background-image: url('../resources/phone-icon.svg');
     background-repeat: no-repeat;
     background-position: 50%;
 }
