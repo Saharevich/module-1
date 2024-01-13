@@ -220,6 +220,10 @@ button {
     background-size: cover;
 }
 
+.apartment-container {
+    width: 100%;
+}
+
 .apartments__descr {
     max-width: 450px;
     font-weight: 400;
