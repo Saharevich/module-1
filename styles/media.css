@@ -1,0 +1,145 @@
+@media (max-width: 1179px) {
+    .container {
+        padding: 0px 17px;
+        width: 100%;
+    }
+
+    .hero {
+        margin-bottom: 120px;
+    }
+
+    .hero__title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero__text {
+        height: 400px; 
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .hero__descr {
+        bottom: 30px;
+        left: 40px;
+        max-width: 430px;
+    }
+
+    .about {
+        margin-bottom: 120px;
+    }
+
+    .about__descr {
+        max-width: 690px;
+        font-size: 35px;
+        line-height: 47.81px;
+    }
+
+    .projects {
+        margin-bottom: 103px;
+    }
+
+    .projects__list {
+        margin-bottom: 102px;
+    }
+
+    .projects__item:not(:last-child) {
+        margin-bottom: 80px;
+    }
+
+    .projects__descr {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34.15px;
+    } 
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0px 13px;
+    }
+    
+    .section-title {
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+
+    .hero {
+        margin-bottom: 80px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+        line-height: 31.62px;
+    }
+
+    .hero__text {
+        height: 304px; 
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .hero__descr {
+        bottom: 15px;
+        left: 15px;
+        max-width: 312px;
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+
+    .about {
+        margin-bottom: 80px;
+    }
+
+    .about__descr {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30.05px;
+    }
+
+    .about__btn {
+        width: 100%;
+        font-size: 16px;
+        line-height: 21.68px;
+    }
+
+    .projects {
+        margin-bottom: 144px;
+    }
+
+    .projects__list {
+        margin-bottom: 60px;
+    }
+
+    .projects__item:not(:last-child) {
+        margin-bottom: 49px;
+    }
+
+    .projects__img {
+        margin-bottom: 20px;
+    }
+
+    .projects__descr {
+        margin-bottom: 11px;
+        font-size: 18px;
+        line-height: 24.59px;
+    }
+
+    .projects__btn {
+        height: 100px;
+        font-size: 22px;
+        line-height: 30.05px;
+        border: 0.76px solid #AD1818;
+        border-radius: 3.8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero__text {
+        background-image: url('../resources/first-img-mob.png');
+    }
+
+    .projects__img {
+        height: 250px;
+    }
+}

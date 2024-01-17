@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/media.css">
+
   </head>
   <body>
       <!-- <header>
@@ -77,7 +79,11 @@
           <ul class="projects__list">
             <li class="projects__item">
               <div class="projects__img">
-                <img src="./resources/projects-img1.jpg" alt="Пример квартиры" class="projects__picture">
+                <picture>
+                  <source media="(max-width: 500px)" srcset="./resources/projects-img1-phone.png">
+                  <source media="(max-width: 1179px)" srcset="./resources/projects-img1-tabl.png">
+                  <img src="./resources/projects-img1.jpg" alt="Пример квартиры" class="projects__picture">
+                </picture>
               </div>
               <h3 class="projects__descr">
                 ЖК&nbsp;ПРАВОБЕРЕЖНЫЙ&nbsp;&mdash; 112&nbsp;м&sup2;&nbsp;&mdash; 2023
@@ -86,7 +92,11 @@
             </li>
             <li class="projects__item">
               <div class="projects__img">
-                <img src="./resources/projects-img2.jpg" alt="Пример квартиры" class="projects__picture">
+                <picture>
+                  <source media="(max-width: 500px)" srcset="./resources/projects-img2-phone.png">
+                  <source media="(max-width: 1179px)" srcset="./resources/projects-img2-tabl.png">
+                  <img src="./resources/projects-img2.jpg" alt="Пример квартиры" class="projects__picture">
+                </picture>
               </div>
               <h3 class="projects__descr">
                 ЖК&nbsp;НОРВЕЖСКИЙ ПАРК&nbsp;&mdash; 75&nbsp;М&sup2;&nbsp;&mdash; 2023
@@ -95,7 +105,11 @@
             </li>
             <li class="projects__item">
               <div class="projects__img">
-                <img src="./resources/projects-img3.jpg" alt="Пример квартиры" class="projects__picture">
+                <picture>
+                  <source media="(max-width: 500px)" srcset="./resources/projects-img3-phone.png">
+                  <source media="(max-width: 1179px)" srcset="./resources/projects-img3-tabl.png">
+                  <img src="./resources/projects-img3.jpg" alt="Пример квартиры" class="projects__picture">
+                </picture>
               </div>
               <h3 class="projects__descr">
                 ЖК&nbsp;СОСНОВСКИЕ ОЗЕРА&nbsp;&mdash; 94&nbsp;М&sup2;&nbsp;&mdash; 2022
@@ -173,7 +187,7 @@
 
     </main>
 
-      <footer class="footer">
+      <!-- <footer class="footer">
         <div class="container">
           <ul class="footer__list flex">
             <li class="footer__item">
@@ -191,7 +205,7 @@
           </ul>
           <p class="footer__name">студия дизайна интерьера Метрика&nbsp;&mdash; 2023</p>
         </div>
-      </footer>
+      </footer> -->
 
   </body>
 </html>

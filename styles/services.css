@@ -1,0 +1,33 @@
+.services {
+    padding: 150px 0px;
+    background-color: #121212;
+}
+
+.services__title {
+    margin-bottom: 34px;
+    color: #fff;
+}
+
+.services__item:not(:last-child) {
+    margin-bottom: 61px;
+}
+
+.services__img {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 270px;
+}
+
+.services__picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.services__descr {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.8px;
+    color: #fff;
+}

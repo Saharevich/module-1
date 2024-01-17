@@ -1,0 +1,24 @@
+.apartment {
+    margin-bottom: 186px;
+    padding-bottom: 60px;
+    flex-direction: column-reverse;
+    min-height: 654px;
+    width: 100%;
+    background-image: url('../resources/apartments-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.apartment-container {
+    width: 100%;
+}
+
+.apartments__descr {
+    max-width: 450px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.8px;
+    color: #fff;
+}
