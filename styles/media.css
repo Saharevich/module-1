@@ -9,6 +9,7 @@
     }
 
     .hero__title {
+        max-width: 802px;
         font-size: 50px;
         line-height: 60px;
     }
@@ -30,7 +31,8 @@
     }
 
     .about__descr {
-        max-width: 690px;
+        margin-bottom: 33px;
+        max-width: 700px;
         font-size: 35px;
         line-height: 47.81px;
     }
@@ -52,6 +54,89 @@
         font-size: 25px;
         line-height: 34.15px;
     } 
+
+    .services {
+        padding: 150px 0px 120px;
+    }
+
+    .services__title {
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    
+    .services__list {
+        margin-bottom: 80px;
+        column-gap: 8px;
+        row-gap: 89px;
+    } 
+
+    .services__img {
+        height: 315px;
+    }
+
+    .services__descr {
+        width: 393px;
+        font-size: 25px;
+        line-height: 34.15px;
+    }
+    
+    .services__price {
+        padding: 6px 26px;
+        top: 31px;
+        left: 29px;
+        font-size: 20px;
+        line-height: 27.32px;
+    }
+
+    .feetback {
+        padding: 117px 0px 120px;
+    }
+    
+    .feetback__title {
+        margin-bottom: 30px;
+    }
+    
+    .feetback__list {
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 80px;
+    }
+
+    .feetback__item:nth-child(3) {
+        width: 694px;
+    }
+
+    .feetback-item__title {
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 47.81px;
+    }
+    
+    .feetback__descr {
+        font-size: 20px;
+        line-height: 27.32px;
+    }
+
+    .apartment {
+        margin-bottom: 120px;
+        height: 536px;
+        width: 100%;
+        background-image: url('../resources/apartments-img-tabl.png');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+    }
+    
+    .apartments__gallery {
+        font-size: 20px;
+        line-height: 27.32px;
+    }
+    
+    .apartments__descr {
+        max-width: 377px;
+        font-size: 25px;
+        line-height: 34.15px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -131,6 +216,85 @@
         line-height: 30.05px;
         border: 0.76px solid #AD1818;
         border-radius: 3.8px;
+    }
+
+    .services {
+        padding: 80px 0px;
+    }
+
+    .services__title {
+        margin-bottom: 20px;
+    }
+    
+    .services__list {
+        margin-bottom: 60px;
+        flex-direction: column;
+        gap: 60px;
+    } 
+
+    .services__item {
+        width: 100%;
+    }
+
+    .services__img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 240px;
+    }
+
+    .services__descr {
+        width: 299px;
+        font-size: 18px;
+        line-height: 24.59px;
+    }
+    
+    .services__price {
+        padding: 5px 23px;
+        top: 23px;
+        left: 24px;
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+
+    .services__btn {
+        padding: 36.3px 0px;
+        font-size: 22px;
+        line-height: 30.05px;
+        border-radius: 3.8px;
+    }
+
+    .feetback {
+        padding: 80px 0px;
+    }
+    
+    .feetback__title {
+        margin-bottom: 22px;
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+    
+    .feetback__list {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .feetback__item {
+        width: 100%;
+    }
+
+    .feetback__item:nth-child(3) {
+        width: 100%;
+    }
+
+    .feetback-item__title {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34.15px;
+    }
+    
+    .feetback__descr {
+        font-size: 16px;
+        line-height: 21.86px;
     }
 }
 

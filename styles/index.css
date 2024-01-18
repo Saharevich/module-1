@@ -1,5 +1,6 @@
 @import "../styles/projects.css";
 @import "../styles/services.css";
+@import "../styles/feetback.css";
 @import "../styles/apartments.css";
 @import "../styles/contacts.css";
 @import "../styles/footer.css";
@@ -43,7 +44,6 @@ button {
     font-weight: 400;
     font-size: 18px;
     line-height: 24.59px;
-    color: #121212;
 }
 
 .header {

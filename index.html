@@ -121,51 +121,103 @@
         </div>
       </section>
 
-      <!-- <section id="services-section" class="services">
+      <section id="services-section" class="services">
         <div class="container">
           <h2 class="services__title section-title">УСЛУГИ</h2>
-          <ul class="services__list">
+          <ul class="services__list flex">
             <li class="services__item">
               <div class="services__img">
-                <img src="./resources/services-img1.jpg" alt="Разновидности услуг" class="services__picture">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="./resources/services-img1-mob.png">
+                  <img src="./resources/services-img1.png" alt="Разновидности услуг" class="services__picture">
+                </picture>
               </div>
               <h3 class="services__descr">
-                Планировочное решение&nbsp;&mdash; от&nbsp;2500₽/м&sup2;
+                Планировочное решение
               </h3>
+              <span class="services__price">от 2500₽/м</span>
             </li>
             <li class="services__item">
               <div class="services__img">
-                <img src="./resources/services-img2.jpg" alt="Разновидности услуг" class="services__picture">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="./resources/services-img2-mob.png">
+                  <img src="./resources/services-img2.png" alt="Разновидности услуг" class="services__picture">
+                </picture>
               </div>
               <h3 class="services__descr">
-                Дизайн-проект&nbsp;&mdash; от&nbsp;3000₽/м&sup2;
+                Дизайн-проект 
               </h3>
+              <span class="services__price">от 3000₽/м²</span>
             </li>
             <li class="services__item">
               <div class="services__img">
-                <img src="./resources/services-img3.jpg" alt="Разновидности услуг" class="services__picture">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="./resources/services-img3-mob.png">
+                  <img src="./resources/services-img3.png" alt="Разновидности услуг" class="services__picture">
+                </picture>
               </div>
               <h3 class="services__descr">
-                Авторский надзор&nbsp;&mdash; от&nbsp;30 000₽ в&nbsp;месяц
+                Авторский надзор 
               </h3>
+              <span class="services__price">от 30 000₽/мес</span>
             </li>
             <li class="services__item">
               <div class="services__img">
-                <img src="./resources/services-img4.jpg" alt="Разновидности услуг" class="services__picture">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="./resources/services-img4-mob.png">
+                  <img src="./resources/services-img4.png" alt="Разновидности услуг" class="services__picture">
+                </picture>
               </div>
               <h3 class="services__descr">
-                Комплектация&nbsp;&mdash; 5%&nbsp;от&nbsp;стоимости спецификации
+                Комплектация
               </h3>
+              <span class="services__price"> 5% от стоимости</span>
+            </li>
+          </ul>
+          <button type="button" class="services__btn">Заказать услугу</button>
+        </div>
+      </section>
+
+      <section class="feetback">
+        <div class="container">
+          <h2 class="feetback__title section-title">ОТЗЫВЫ</h2>
+          <ul class="feetback__list flex">
+            <li class="feetback__item">
+              <h3 class="feetback-item__title">
+                Ксения, проект 65 кв.м.
+              </h3>
+              <p class="feetback__descr">
+                Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br> Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!
+              </p>
+            </li>
+            <li class="feetback__item">
+              <h3 class="feetback-item__title">
+                Регина, проект 89 кв.м.
+              </h3>
+              <p class="feetback__descr">
+                Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера! <br> Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
+              </p>
+            </li>
+            <li class="feetback__item">
+              <h3 class="feetback-item__title">
+                Яна, проект 120 кв.м.
+              </h3>
+              <p class="feetback__descr">
+                Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим. <br> В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
+              </p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="apartment flex">
-        <div class="container apartment-container">
+      <!-- <section class="apartment">
+        <div class="container">
+          <div class="apartments__text flex">
+            <h2 class="apartments__gallery">галерея проектов</h2>
             <h3 class="apartments__descr">
             Проект Двухкомнтаной квартиры в&nbsp;ЖК&nbsp;Лесной Пейзаж
             </h3>
+          </div>
         </div>
       </section>
 

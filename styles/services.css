@@ -8,14 +8,22 @@
     color: #fff;
 }
 
-.services__item:not(:last-child) {
-    margin-bottom: 61px;
+.services__list {
+    margin-bottom: 106px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 84px;
+} 
+
+.services__item {
+    position: relative;
+    width: calc(50% - 5.5px);
 }
 
 .services__img {
     margin-bottom: 15px;
     width: 100%;
-    height: 270px;
+    height: 389px;
 }
 
 .services__picture {
@@ -26,8 +34,32 @@
 
 .services__descr {
     font-weight: 400;
+    width: 250px;
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.8px;
     color: #fff;
+}
+
+.services__price {
+    padding: 5px 22px;
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    font-size: 22px;
+    line-height: 30.05px;
+    color: #fff;
+    background-color: #AD1818;
+    border-radius: 5px;
+}
+
+.services__btn {
+    padding: 56px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #fff;
+    background-color: #AD1818;
+    border-radius: 5px;
 }
