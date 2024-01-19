@@ -1,25 +1,61 @@
 .apartment {
-    margin-bottom: 186px;
+    position: relative;
     height: 717px;
     width: 100%;
-    background-image: url('../resources/apartments-img.jpg');
+}
+
+.forest-landscape {
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/forest-landscape.jpg');
     background-repeat: no-repeat;
-    background-position: 50%;
     background-size: cover;
+    background-position: 50%;
 }
 
-.apartments__text {
-    height: 597px;
-    flex-direction: column;
-    justify-content: space-between;
+.lighthouse {
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/lighthouse.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
-.apartments__gallery {
+.kitchen-living {
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/kitchen-living.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.north-wind {
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/north-wind.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.apartments__text-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    bottom: 60px;
+    z-index: 100;
+}
+
+.apartments__title {
+    margin-bottom: 485px;
     max-width: 277px;
     font-size: 22px;
     line-height: 30.05px;
     text-transform: uppercase;
     color: #fff;
+    letter-spacing: -0.7px;
 }
 
 .apartments__descr {
@@ -29,4 +65,51 @@
     line-height: 40.98px;
     letter-spacing: -0.8px;
     color: #fff;
+}
+
+.apartments__gallery {
+    position: relative;
+    width: 100%;
+    height: 717px;
+}
+
+.apartments__slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.gallery__slide_active {
+    display: block;
+    width: 100%;
+    opacity: 1;
+}
+
+.apartments__control-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 165px;
+    z-index: 100;
+}
+
+.apartments__controls__prev {
+    content: '';
+    width: 27px;
+    height: 40px;
+    margin-right: 24px;
+    background-image: url('../resources/controls-prev.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.apartments__controls__next {
+    content: '';
+    width: 27px;
+    height: 40px;
+    background-image: url('../resources/controls-next.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
 }

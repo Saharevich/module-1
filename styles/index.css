@@ -44,6 +44,7 @@ button {
     font-weight: 400;
     font-size: 18px;
     line-height: 24.59px;
+    letter-spacing: -0.9px;
 }
 
 .header {
@@ -75,7 +76,7 @@ button {
 }
 
 .hero {
-    margin-bottom: 150px;
+    padding-top: 70px;
 }
 
 .hero__title {
@@ -108,7 +109,7 @@ button {
 }
 
 .about {
-    margin-bottom: 150px;
+    padding-top: 150px;
 }
 
 .about__title {
@@ -121,16 +122,17 @@ button {
     font-weight: 400;
     font-size: 45px;
     line-height: 61.47px;
-    letter-spacing: -0.9px;
+    letter-spacing: -1px;
     color: #121212;
 }
 
 .about__btn {
-    padding: 19.5px 40px;
+    padding: 19.5px 37px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27.32px;
     color: #fff;
+    letter-spacing: -0.3px;
     background-color: #AD1818;
     border: none;
     border-radius: 5px;

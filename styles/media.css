@@ -1,11 +1,11 @@
 @media (max-width: 1179px) {
     .container {
-        padding: 0px 17px;
+        padding: 0px 15px;
         width: 100%;
     }
 
     .hero {
-        margin-bottom: 120px;
+        padding-top: 74px;
     }
 
     .hero__title {
@@ -27,7 +27,7 @@
     }
 
     .about {
-        margin-bottom: 120px;
+        padding-top: 120px;
     }
 
     .about__descr {
@@ -37,8 +37,12 @@
         line-height: 47.81px;
     }
 
+    .about__btn {
+        letter-spacing: -0.5px;
+    }
+
     .projects {
-        margin-bottom: 103px;
+        padding: 120px 0px 104px;
     }
 
     .projects__list {
@@ -46,7 +50,7 @@
     }
 
     .projects__item:not(:last-child) {
-        margin-bottom: 80px;
+        margin-bottom: 79.5px;
     }
 
     .projects__descr {
@@ -65,12 +69,13 @@
     }
     
     .services__list {
-        margin-bottom: 80px;
+        margin-bottom: 82px;
         column-gap: 8px;
         row-gap: 89px;
     } 
 
     .services__img {
+        margin-bottom: 16px;
         height: 315px;
     }
 
@@ -83,13 +88,14 @@
     .services__price {
         padding: 6px 26px;
         top: 31px;
-        left: 29px;
+        left: 33px;
         font-size: 20px;
         line-height: 27.32px;
+        letter-spacing: -0.1px;
     }
 
     .feetback {
-        padding: 117px 0px 120px;
+        padding: 117px 0px;
     }
     
     .feetback__title {
@@ -98,8 +104,12 @@
     
     .feetback__list {
         flex-wrap: wrap;
-        column-gap: 10px;
-        row-gap: 80px;
+        column-gap: 19px;
+        row-gap: 71px;
+    }
+
+    .feetback__item {
+        width: calc(50% - 10px);
     }
 
     .feetback__item:nth-child(3) {
@@ -107,35 +117,78 @@
     }
 
     .feetback-item__title {
-        margin-bottom: 25px;
+        margin-bottom: 19px;
         font-size: 35px;
-        line-height: 47.81px;
+        line-height: 55.81px;
     }
     
     .feetback__descr {
         font-size: 20px;
         line-height: 27.32px;
+        letter-spacing: -0.8px;
     }
 
     .apartment {
-        margin-bottom: 120px;
         height: 536px;
         width: 100%;
-        background-image: url('../resources/apartments-img-tabl.png');
-        background-repeat: no-repeat;
-        background-position: 50%;
-        background-size: cover;
+    }
+
+    .apartments__gallery {
+        height: 100%;
+    }
+
+    .apartments__text-wrapper {
+        padding-left: 33px;
+        top: 80px;
+        bottom: 80px;
+    }
+
+    .apartments__control-wrapper {
+        padding-left: 33px;
+        bottom: 151px;
     }
     
-    .apartments__gallery {
+    .apartments__title {
+        margin-bottom: 283px;
         font-size: 20px;
         line-height: 27.32px;
     }
     
     .apartments__descr {
-        max-width: 377px;
+        max-width: 370px;
         font-size: 25px;
         line-height: 34.15px;
+    }
+
+    .phone {
+        margin-right: 117px;
+    }
+
+    .contacts {
+        padding: 121px 0px 81px;
+    }
+
+    .contacts__phone {
+        font-size: 45px;
+        line-height: 60px;
+        letter-spacing: -0.9px;
+    }
+
+    .mail::before {
+        width: 22px;
+        bottom: 85px;
+    }
+
+    .contacts__mail {
+        font-size: 45px;
+        line-height: 45px;
+        letter-spacing: -1.6px;
+    }
+}
+
+@media (max-width: 804px) {
+    .phone {
+        margin-right: auto;
     }
 }
 
@@ -150,10 +203,12 @@
     }
 
     .hero {
-        margin-bottom: 80px;
+        padding-top: 61px;
     }
 
     .hero__title {
+        margin-bottom: 24px;
+        max-width: 300px;
         font-size: 30px;
         line-height: 31.62px;
     }
@@ -167,29 +222,38 @@
     .hero__descr {
         bottom: 15px;
         left: 15px;
-        max-width: 312px;
+        max-width: 250px;
         font-size: 16px;
         line-height: 21.86px;
     }
 
     .about {
-        margin-bottom: 80px;
+        padding-top: 80px;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
     }
 
     .about__descr {
+        margin-bottom: 30px;
         width: 100%;
         font-size: 22px;
         line-height: 30.05px;
     }
 
     .about__btn {
-        width: 100%;
+        padding: 14.5px 23px;
         font-size: 16px;
         line-height: 21.68px;
     }
 
     .projects {
-        margin-bottom: 144px;
+        padding: 80px 0px 144px;
+    }
+
+    .projects__title {
+        margin-bottom: 20px;
     }
 
     .projects__list {
@@ -208,12 +272,19 @@
         margin-bottom: 11px;
         font-size: 18px;
         line-height: 24.59px;
+        letter-spacing: -0.6px;
+    }
+
+    .projects__link {
+        font-size: 16px;
+        line-height: 22.32px;
     }
 
     .projects__btn {
         height: 100px;
         font-size: 22px;
         line-height: 30.05px;
+        letter-spacing: -0.6px;
         border: 0.76px solid #AD1818;
         border-radius: 3.8px;
     }
@@ -224,12 +295,13 @@
 
     .services__title {
         margin-bottom: 20px;
+        padding-left: 5px;
     }
     
     .services__list {
-        margin-bottom: 60px;
+        margin-bottom: 66px;
         flex-direction: column;
-        gap: 60px;
+        gap: 66px;
     } 
 
     .services__item {
@@ -246,6 +318,7 @@
         width: 299px;
         font-size: 18px;
         line-height: 24.59px;
+        letter-spacing: -0.5px;
     }
     
     .services__price {
@@ -264,7 +337,7 @@
     }
 
     .feetback {
-        padding: 80px 0px;
+        padding: 80px 0px 86px;
     }
     
     .feetback__title {
@@ -275,7 +348,7 @@
     
     .feetback__list {
         flex-direction: column;
-        gap: 80px;
+        gap: 75px;
     }
 
     .feetback__item {
@@ -289,12 +362,111 @@
     .feetback-item__title {
         margin-bottom: 10px;
         font-size: 25px;
-        line-height: 34.15px;
+        line-height: 35.15px;
+        letter-spacing: -0.9px;
     }
     
     .feetback__descr {
         font-size: 16px;
         line-height: 21.86px;
+        letter-spacing: -0.5px;
+    }
+
+    .apartment {
+        height: 408px;
+    }
+
+    .apartments__text-wrapper {
+        padding-left: 0;
+        top: 60px;
+        bottom: 60px;
+    }
+
+    .apartments__control-wrapper {
+        padding-left: 0;
+        bottom: 45%;
+    }
+
+    .apartments__controls {
+        justify-content: space-between;
+    }
+    
+    .apartments__title {
+        margin-bottom: 216px;
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+    
+    .apartments__descr {
+        max-width: 270px;
+        font-size: 19px;
+        line-height: 25.97px;
+        letter-spacing: -0.6px;
+    }
+
+    .contacts {
+        padding: 80px 0px;
+    }
+
+    .contacts__title {
+        margin-bottom: 57px;
+    }
+
+    .contacts__descr {
+        flex-direction: column;
+        gap: 58px;
+    }
+
+    .phone {
+        margin-right: 0;
+    }
+
+    .phone::before {
+        bottom: 67px;
+        height: 16px;
+        width: 11px;
+    }
+
+    .contacts__phone {
+        font-size: 35px;
+        line-height: 45.62px;
+        letter-spacing: -0.9px;
+    }
+
+    .mail::before {
+        bottom: 67px;
+        height: 18px;
+        width: 15px;
+    }
+
+    .contacts__mail {
+        font-size: 35px;
+        line-height: 45.62px;
+        letter-spacing: -1.6px;
+    }
+
+    .footer {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .footer__list {
+        margin-bottom: 40px;
+    }
+
+    .footer__item:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+    .footer__link {
+        font-size: 12px;
+        line-height: 16.39px;
+        letter-spacing: -0.3px;
+    }
+
+    .footer__name {
+        font-size: 13px;
+        line-height: 17.76px;
+        letter-spacing: -0.4px;
     }
 }
 

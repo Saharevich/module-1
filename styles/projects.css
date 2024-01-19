@@ -1,5 +1,5 @@
 .projects {
-    margin-bottom: 150px;
+    padding: 150px 0px;
 }
 
 .projects__list {
@@ -7,7 +7,7 @@
 }
 
 .projects__item:not(:last-child) {
-    margin-bottom: 93px;
+    margin-bottom: 90px;
 }
 
 .projects__title {
@@ -15,7 +15,7 @@
 }
 
 .projects__img {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     height: 450px;
     width: 100%;
 }
@@ -31,7 +31,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 40.98px;
-    letter-spacing: -0.9px;
+    letter-spacing: -0.8px;
     color: inherit;
 }
 
@@ -45,7 +45,7 @@
 
 .projects__btn {
     width: 100%;
-    height: 152px;
+    height: 154px;
     text-align: center;
     font-weight: 400;
     font-size: 30px;

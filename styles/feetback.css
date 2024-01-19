@@ -1,5 +1,5 @@
 .feetback {
-    padding: 150px 0px 157px;
+    padding: 150px 0px 154px;
 }
 
 .feetback__title {
@@ -8,11 +8,12 @@
 
 .feetback__list {
     flex-wrap: wrap;
-    gap: 50px;
+    column-gap: 30px;
+    row-gap: 80px;
 }
 
 .feetback__item {
-    width: calc(50% - 25.5px);
+    width: calc(50% - 25px);
 }
 
 .feetback__item:nth-child(3) {
@@ -23,6 +24,7 @@
     margin-bottom: 14px;
     font-size: 45px;
     line-height: 61.47px;
+    letter-spacing: -1.5px;
 }
 
 .feetback__descr {
