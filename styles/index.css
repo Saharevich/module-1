@@ -56,8 +56,11 @@ button {
 .header {
     padding-top: 33px;
     position: relative;
-    justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    margin-right: auto;
 }
 
 .header-link {
