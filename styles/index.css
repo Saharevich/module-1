@@ -4,6 +4,7 @@
 @import "../styles/apartments.css";
 @import "../styles/contacts.css";
 @import "../styles/footer.css";
+@import "../styles/popup.css";
 
 html {
     scroll-behavior: smooth;
@@ -28,6 +29,10 @@ ul {
 button {
     cursor: pointer;
 }
+
+.body_fixed {
+    overflow: hidden;
+} 
 
 .flex {
     display: flex;

@@ -4,10 +4,8 @@
 
 .projects__list {
     margin-bottom: 90px;
-}
-
-.projects__item:not(:last-child) {
-    margin-bottom: 90px;
+    flex-direction: column;
+    gap: 90px;
 }
 
 .projects__title {

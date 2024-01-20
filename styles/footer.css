@@ -5,12 +5,9 @@
 }
 
 .footer__list {
-    margin-bottom: 87px;
+    margin-bottom: 89px;
     justify-content: center;
-}
-
-.footer__item:not(:last-child) {
-    margin-right: 51px;
+    gap: 51px;
 }
 
 .footer__link {

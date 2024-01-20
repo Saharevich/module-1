@@ -63,4 +63,9 @@
     color: #fff;
     background-color: #AD1818;
     border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.services__btn:hover {
+    background-color: #f24c4c;
 }

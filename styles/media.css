@@ -46,11 +46,8 @@
     }
 
     .projects__list {
-        margin-bottom: 102px;
-    }
-
-    .projects__item:not(:last-child) {
-        margin-bottom: 79.5px;
+        margin-bottom: 98px;
+        gap: 77px;
     }
 
     .projects__descr {
@@ -71,7 +68,7 @@
     .services__list {
         margin-bottom: 82px;
         column-gap: 8px;
-        row-gap: 89px;
+        row-gap: 87px;
     } 
 
     .services__img {
@@ -94,8 +91,18 @@
         letter-spacing: -0.1px;
     }
 
+    .popup__content {
+        padding: 94px 94px 86px 45px;
+        width: 636px;
+    }
+
+    .popup__close-btn {
+        top: 46px;
+        right: 59px;
+    }
+
     .feetback {
-        padding: 117px 0px;
+        padding: 119px 0px;
     }
     
     .feetback__title {
@@ -246,6 +253,7 @@
         padding: 14.5px 23px;
         font-size: 16px;
         line-height: 21.68px;
+        letter-spacing: 0px;
     }
 
     .projects {
@@ -258,10 +266,7 @@
 
     .projects__list {
         margin-bottom: 60px;
-    }
-
-    .projects__item:not(:last-child) {
-        margin-bottom: 49px;
+        gap: 50px;
     }
 
     .projects__img {
@@ -336,8 +341,53 @@
         border-radius: 3.8px;
     }
 
+    .popup {
+        padding: 40px 10px;
+    }
+
+    .popup__content {
+        padding: 86px 16px 80px;
+    }
+    
+    .popup__title {
+        margin-bottom: 11px;
+        font-size: 25px;
+        line-height: 34.15px;
+    }
+    
+    .popup__descr {
+        margin-bottom: 48px;
+        padding: 0px 83px;
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+
+    .popup__inputs {
+        margin-bottom: 60px;
+        flex-direction: column;
+        gap: 36px;
+    }
+    
+    .popup__input {
+        height: 35px;
+        font-size: 18px;
+        line-height: 24.59px;
+    }
+    
+    .popup__input::placeholder{
+        font-size: 18px;
+        line-height: 24.59px;
+    }
+    
+    .popup__close-btn {
+        top: 47px;
+        right: 58px;
+        width: 18px;
+        height: 18px;
+    }
+
     .feetback {
-        padding: 80px 0px 86px;
+        padding: 78px 0px 86px;
     }
     
     .feetback__title {
@@ -451,10 +501,7 @@
 
     .footer__list {
         margin-bottom: 40px;
-    }
-
-    .footer__item:not(:last-child) {
-        margin-right: 30px;
+        gap: 30px;
     }
     
     .footer__link {

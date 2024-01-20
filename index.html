@@ -76,7 +76,7 @@
       <section id="projects-section" class="projects">
         <div class="container">
           <h2 class="projects__title section-title">ПРОЕКТЫ</h2>
-          <ul class="projects__list">
+          <ul class="projects__list flex">
             <li class="projects__item">
               <div class="projects__img">
                 <picture>
@@ -174,7 +174,24 @@
               <span class="services__price"> 5% от стоимости</span>
             </li>
           </ul>
-          <button type="button" class="services__btn">Заказать услугу</button>
+          <button type="button" class="services__btn js-btn">Заказать услугу</button>
+          <div class="popup js-popup">
+            <div class="popup__content js-popup__content">
+                <h2 class="popup__title">
+                  Заказать услугу
+                </h2>
+                <p class="popup__descr">
+                  Заполните форму, мы свяжемся с вами в течение суток
+                </p>
+              <div class="popup__inputs flex">
+                <input type="text" class="popup__input" placeholder="Имя" required>
+                <input type="email" class="popup__input" placeholder="Электронная почта" required>
+                <input type="tel" class="popup__input" placeholder="Номер телефона" required>
+              </div>
+              <button class="popup__close-btn  js-popup__close-btn"></button>
+              <button class="popup__form-btn">Отправить</button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -314,8 +331,9 @@
           <p class="footer__name">студия дизайна интерьера Метрика&nbsp;&mdash; 2023</p>
         </div>
       </footer>
-
+      <script src="popup.js"></script>
       <script src="gallery.js"></script>
+      
 
   </body>
 </html>
