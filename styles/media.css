@@ -371,11 +371,13 @@
     }
 
     .popup {
-        padding: 40px 0px;
+        padding: 37px 0px;
     }
 
     .popup__content {
-        padding: 86px 16px 80px;
+        padding: 80px 16px;
+        box-sizing: border-box;
+        width: 361px;
     }
     
     .popup__title {
@@ -386,13 +388,13 @@
     
     .popup__descr {
         margin-bottom: 48px;
-        padding: 0px 83px;
+        padding: 0px 70px;
         font-size: 14px;
         line-height: 19.12px;
     }
 
     .popup__inputs {
-        margin-bottom: 60px;
+        margin-bottom: 62px;
         flex-direction: column;
         gap: 36px;
     }
@@ -409,8 +411,8 @@
     }
     
     .popup__close-btn {
-        top: 47px;
-        right: 58px;
+        top: 43px;
+        right: 36px;
         width: 18px;
         height: 18px;
     }
