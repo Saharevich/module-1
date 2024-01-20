@@ -27,6 +27,7 @@
     flex-direction: column;
     position: relative;
     border-radius: 10px;
+    overflow: scroll;
     text-align: center;
     background-color: #fff;
 }
