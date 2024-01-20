@@ -5,6 +5,7 @@
 @import "../styles/contacts.css";
 @import "../styles/footer.css";
 @import "../styles/popup.css";
+@import "../styles/burger.css";
 
 html {
     scroll-behavior: smooth;
@@ -54,12 +55,9 @@ button {
 
 .header {
     padding-top: 33px;
-    margin-bottom: 70px;
+    position: relative;
+    justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    margin-right: auto;
 }
 
 .header-link {
@@ -71,13 +69,13 @@ button {
     transition: color 0.3s ease-in-out;
 }
 
+.header-nav__list {
+    gap: 60px;
+}
+
 .header-link:hover {
     color: #949393;
     border-bottom: 1px solid #949393;
-}
-
-.header-nav__item:not(:last-child) {
-    margin-right: 60px;
 }
 
 .hero {

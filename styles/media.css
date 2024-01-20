@@ -209,6 +209,35 @@
         line-height: 19.12px;
     }
 
+    .header-nav {
+        display: none;
+    }
+
+    .burger-btn {
+        display: flex;
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50px;
+        height: 10px;
+        z-index: 200;
+        background-image: url('../resources/burger-open.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+
+    .burger-btn_open {
+        width: 21px;
+        height: 21px;
+        right: 10px;
+        background-image: url('../resources/burger-close.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+
     .hero {
         padding-top: 61px;
     }

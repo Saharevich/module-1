@@ -14,11 +14,11 @@
 
   </head>
   <body>
-      <!-- <header>
+      <header>
         <div class="container">
           <div class="header flex">
             <a href="#" class="logo">
-              <img src="./resources/metrika-logo.svg" alt="Логотип компании" >
+              <img src="./resources/metrika-logo.svg" alt="Логотип компании">
             </a>
           <nav class="header-nav">
           <ul class="header-nav__list flex">
@@ -43,10 +43,53 @@
               </a>
             </li>
           </ul>
-        </nav>  
+        </nav> 
+        <button class="burger-btn js-burger-btn flex"></button>
+        <div class="burger burger__close js-burger">
+          <div class="burger-content js-burger__content">
+            <img src="./resources/metrika-logo.svg" alt="Логотип компании" class="burger-logo">
+            <nav class="burger-nav">
+              <ul class="burger-nav__list flex">
+                <li class="burger-nav__item">
+                  <a href="#main-section" class="burger-link">
+                    О НАС
+                  </a>
+                </li>
+                <li class="burger-nav__item">
+                  <a href="#projects-section" class="burger-link">
+                    ПРОЕКТЫ
+                  </a>
+                </li>
+                <li class="burger-nav__item">
+                  <a href="#services-section" class="burger-link">
+                    УСЛУГИ
+                  </a>
+                </li>
+                <li class="burger-nav__item">
+                  <a href="#contacts-section" class="burger-link">
+                    КОНТАКТЫ
+                  </a>
+                </li>
+              </ul>
+            </nav> 
+            <div class="burger__contacts">
+              <h3 class="burger__title">для связи:</h3>
+              <p class="burger__phone">
+                <a href="tel:+79358954535" class="burger__num">
+                  +7 935 895-45-35
+                </a>
+              </p>
+              <p class="burger__mail">
+                <a href="mailto:hello@mail.com" class="burger__mailbox">
+                  hello@mail.com
+                </a>
+              </p>
+            </div>
+          </div>
+        </div> 
         </div>
         </div>
-      </header> -->
+      </header>
 
       <main class="main">
 
@@ -331,6 +374,7 @@
           <p class="footer__name">студия дизайна интерьера Метрика&nbsp;&mdash; 2023</p>
         </div>
       </footer>
+      <script src="burger.js"></script>
       <script src="popup.js"></script>
       <script src="gallery.js"></script>
       
