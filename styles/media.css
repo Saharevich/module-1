@@ -380,6 +380,7 @@
         padding: 80px 16px;
         box-sizing: border-box;
         width: 361px;
+        overflow: scroll;
     }
     
     .popup__title {
