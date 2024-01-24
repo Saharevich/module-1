@@ -198,6 +198,7 @@
 
     .apartments__text-wrapper {
         padding-left: 33px;
+        box-sizing: border-box;
         top: 80px;
         bottom: 80px;
     }
