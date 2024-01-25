@@ -205,6 +205,7 @@
 
     .apartments__control-wrapper {
         padding-left: 33px;
+        box-sizing: border-box;
         bottom: 151px;
     }
     
